@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <windows.h>
 int maior(int n, int v[]){
     int maior = v[0];
     for(int i=0;i<n;i++){
@@ -16,5 +16,5 @@ int main(){
         scanf("%d", &v[i]);
     }
     printf("%d", maior(n, v));
-    return 0;
+    return EXIT_SUCCESS;
 }
